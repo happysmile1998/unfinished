@@ -81,6 +81,11 @@ li
     overflow: hidden;
     box-sizing: border-box;
 }
+.swiper-slide
+{
+    overflow: hidden;
+    background-size:100% 100%; 
+}
 .swiper-wrapper img
 {
     width:100%;
@@ -88,18 +93,13 @@ li
 }
 .word
 {
-    float：right;
+    float:left;
     box-sizing: border-box;
-    
 }
 .name
 {
     font-size: 17px;
-    margin-top: 4px;
-}
-.introduction
-{
-    font-size: 14px;
+    margin-top:4px;
 }
 .price
 {
@@ -113,6 +113,27 @@ li
     position: absolute;
     right:0;
     bottom:3px;
+}
+.Price
+{
+    margin: 3px;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
+.Number
+{
+    position: absolute;
+    right:0;
+    bottom:3px;
+}
+#a,#b,#c,#d,#f
+{
+    display:none;
+    width:80%;
+    padding-bottom:80%;
+    height:0;
+    overflow: hidden;
 }
 .first
 {
